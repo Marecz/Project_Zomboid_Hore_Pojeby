@@ -908,11 +908,11 @@ SandboxVars = {
     },
     ZombieConfig = {
         -- Set by the "Zombie Count" population option, or by a custom number here. Insane = 2.5, Very High = 1.6, High = 1.2, Normal = 0.65, Low = 0.15, None = 0.0. Min: 0.00 Max: 4.00 Default: 0.65
-        PopulationMultiplier = 2.5,
+        PopulationMultiplier = 1.6,
         -- A multiplier for the desired zombie population at the start of the game. Insane = 3.0, Very High = 2.0, High = 1.5, Normal = 1.0, Low = 0.5, None = 0.0. Min: 0.00 Max: 4.00 Default: 1.00
-        PopulationStartMultiplier = 1.0,
+        PopulationStartMultiplier = 0.5,
         -- A multiplier for the desired zombie population on the peak day. Insane = 3.0, Very High = 2.0, High = 1.5, Normal = 1.0, Low = 0.5, None = 0.0. Min: 0.00 Max: 4.00 Default: 1.50
-        PopulationPeakMultiplier = 2.0,
+        PopulationPeakMultiplier = 1.6,
         -- The day when the population reaches its peak. Min: 1 Max: 365 Default: 28
         PopulationPeakDay = 365,
         -- The number of hours that must pass before zombies may respawn in a cell. If 0, spawning is disabled. Min: 0.00 Max: 8760.00 Default: 72.00
@@ -926,13 +926,13 @@ SandboxVars = {
         -- The distance a zombie will try to walk towards the last sound it heard. Min: 10 Max: 1000 Default: 100
         FollowSoundDistance = 100,
         -- The size of groups real zombies form when idle. 0 means zombies don't form groups. Groups don't form inside buildings or forest zones. Min: 0 Max: 1000 Default: 20
-        RallyGroupSize = 2,
+        RallyGroupSize = 0,
         -- The amount, as a percentage, that zombie groups can vary in size from the default (both larger and smaller).   For example, at 50% variance with a default group size of 20, groups will vary in size from 10-30. Min: 0 Max: 100 Default: 50
-        RallyGroupSizeVariance = 1,
+        RallyGroupSizeVariance = 50,
         -- The distance real zombies travel to form groups when idle. Min: 5 Max: 50 Default: 20
         RallyTravelDistance = 5,
         -- The distance between zombie groups. Min: 5 Max: 25 Default: 15
-        RallyGroupSeparation = 1,
+        RallyGroupSeparation = 15,
         -- How close members of a zombie group stay to the group's "leader". Min: 1 Max: 10 Default: 3
         RallyGroupRadius = 3,
         -- Min: 10 Max: 500 Default: 300
