@@ -50,7 +50,7 @@ SandboxVars = {
     -- 25 = 22 Hours
     -- 26 = 23 Hours
     -- 27 = Real-time
-    DayLength = 5,
+    DayLength = 4,
     StartYear = 1,
     -- Month in which the game starts. Default = July
     -- 1 = January
@@ -184,7 +184,7 @@ SandboxVars = {
     -- If enabled, items on the Loot Item Removal List, or that have their rarity set to 'None', will not spawn worn by, or attached to, zombies.
     RemoveZombieLoot = false,
     -- If greater than 0, the spawn of loot is increased relative to the number of nearby zombies,  with the effect multiplied by this number. Min: 0 Max: 20 Default: 10
-    ZombiePopLootEffect = 10,
+    ZombiePopLootEffect = 5,
     -- Min: 0.00 Max: 0.20 Default: 0.05
     InsaneLootFactor = 0.05,
     -- Min: 0.05 Max: 0.60 Default: 0.20
@@ -910,9 +910,9 @@ SandboxVars = {
         -- Set by the "Zombie Count" population option, or by a custom number here. Insane = 2.5, Very High = 1.6, High = 1.2, Normal = 0.65, Low = 0.15, None = 0.0. Min: 0.00 Max: 4.00 Default: 0.65
         PopulationMultiplier = 1.6,
         -- A multiplier for the desired zombie population at the start of the game. Insane = 3.0, Very High = 2.0, High = 1.5, Normal = 1.0, Low = 0.5, None = 0.0. Min: 0.00 Max: 4.00 Default: 1.00
-        PopulationStartMultiplier = 0.5,
+        PopulationStartMultiplier = 1.3,
         -- A multiplier for the desired zombie population on the peak day. Insane = 3.0, Very High = 2.0, High = 1.5, Normal = 1.0, Low = 0.5, None = 0.0. Min: 0.00 Max: 4.00 Default: 1.50
-        PopulationPeakMultiplier = 1.6,
+        PopulationPeakMultiplier = 1.9,
         -- The day when the population reaches its peak. Min: 1 Max: 365 Default: 28
         PopulationPeakDay = 365,
         -- The number of hours that must pass before zombies may respawn in a cell. If 0, spawning is disabled. Min: 0.00 Max: 8760.00 Default: 72.00
@@ -944,9 +944,9 @@ SandboxVars = {
         -- When enabled, all skills will use the Global Multiplier.
         GlobalToggle = false,
         -- Rate at which Fitness skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00
-        Fitness = 1.5,
+        Fitness = 2.0,
         -- Rate at which Strength skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00
-        Strength = 1.5,
+        Strength = 2.0,
         -- Rate at which Sprinting skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00
         Sprinting = 1.5,
         -- Rate at which Lightfooted skill levels up. Min: 0.00 Max: 1000.00 Default: 1.00
